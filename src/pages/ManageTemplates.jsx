@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import axios from 'axios';
+import axios from '../utils/axiosConfig';
 import useAuth from '../hooks/useAuth';
 import { FaTrash, FaPlus } from 'react-icons/fa';
 
